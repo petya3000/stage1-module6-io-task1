@@ -31,7 +31,6 @@ public class FileReader {
             String email = str.substring(start + 2, end - 1);
             str = str.substring(end + 1);
 
-
             start = str.indexOf(':');
             end = str.indexOf('\n');
             String phone = str.substring(start + 2, end - 1);
