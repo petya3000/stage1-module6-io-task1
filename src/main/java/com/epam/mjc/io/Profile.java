@@ -10,8 +10,8 @@ public class Profile {
     private Long phone;
 
     public Profile() {
-
     }
+
     public Profile(String name, Integer age, String email, Long phone) {
         this.name = name;
         this.age = age;
