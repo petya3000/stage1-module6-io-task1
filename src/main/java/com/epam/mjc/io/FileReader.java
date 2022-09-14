@@ -15,7 +15,8 @@ public class FileReader {
                 stringBuilder.append((char) ch);
             }
             String str = stringBuilder.toString();
-            int start = str.indexOf(':'), end = str.indexOf('\n');
+            int start = str.indexOf(':');
+            int end = str.indexOf('\n');
             String name = str.substring(start + 2, end - 1);
             str = str.substring(end + 1, str.length() - 1);
 
