@@ -23,7 +23,8 @@ public class FileReader {
             list.remove(0);
 
 
-            String name = list.get(0), email = list.get(2);
+            String name = list.get(0);
+            String email = list.get(2);
             int age;
             long phone;
             age = Integer.parseInt(list.get(1));
